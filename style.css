@@ -865,8 +865,12 @@ h4 {
 }
 
 .title-list {
-    color: #fff !important;
+    color: black!important;
     padding-right: 7px;
+}
+
+.cl-1 {
+    color: black !important;
 }
 
 @media (max-width: 1024px) {
