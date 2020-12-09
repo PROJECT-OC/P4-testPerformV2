@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -860,7 +860,7 @@ h4 {
 }
 
 .list-item a {
-    color: #fff !important;
+    color: black !important;
     font-size: 1.1em;
 }
 
