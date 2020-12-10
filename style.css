@@ -856,7 +856,8 @@ h4 {
 
 .list-item li {
     list-style-type: none;
-    padding: 0 8px;
+    padding: 0 10px;
+    margin-top: 10px;
 }
 
 .list-item a {
