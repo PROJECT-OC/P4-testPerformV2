@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="Default">
+<html lang="fr">
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="">
@@ -7,18 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
-	
-    
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
-    <title>page2</title>
+    <title>La chouette agence. - Contact</title>
 
     
 <!-- Analytics -->
@@ -46,9 +39,7 @@
 						<a href="index.html">Accueil</a>
 					</li>
 					<li>
-					</li>
-					<li>
-						<a href="page2.html">page2 &gt;</a>
+						<a href="contact.html">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -80,7 +71,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Désolé, il semble que notre serveur de messagerie ne répond pas, Désolé pour le désagrément !">
 					<div class="form-group">
 						<label>
 							Nom
@@ -97,7 +88,7 @@
 						<label>
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input class="form-control" type="text" required id="input_504" /> <!--Changement du type de l'input passage en texte plus approprié pour le contenu demandé-->
 					</div>
 					<div class="form-group">
 						<label>
@@ -163,6 +154,14 @@
 </div>
 <!-- Principal conteneur END -->
     
-
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script>
+	<script src="./js/jqBootstrapValidation.js"></script>
+	<script src="./js/formHandler.js"></script>
+	<script src="https://unpkg.com/lazysizes@5.2.2/lazysizes.js"></script>
+	<!--Script lazysizes Optimisation de performance : ce script permet de charger les différente images du site en différer. Les images non visible par l'utilisateur
+	ne sont donc pas chargé par le navigateur elle se charge uniquement une fois que l'utilisateur scrall sur le contenu, cela permet de gagner en vitesse de chargement du site
+	web / utilisation : ajout de l'élément data-src ainsi que de la classe lazyload au différente image-->
 </body>
 </html>

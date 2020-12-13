@@ -852,6 +852,7 @@ h4 {
 
 .list-item {
     align-items: center;
+    width: 100%;
 }
 
 .list-item li {
@@ -1089,4 +1090,9 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+
+    .col-sm-6 img {
+        margin: auto; /*Mofification : ajout d'un margin auto pour centrer les images*/
+    }
+
 }

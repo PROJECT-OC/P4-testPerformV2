@@ -28,6 +28,8 @@ https://swiichy.github.io/TestPerformV2/
 
 	<!--Modification de la balise meta "description" / ajout d'une phrase pertinente qui accroche le visiteur en utilisant des mot clef pertinent-->
 
+	<!--Modification du nom des diférente img du site qui doit correspondre a l'image présenté SEO-->
+
 	<!---Changement de la balise lang="Defaut" - Par lang="fr" (L'utilisation d'un attribut lang pour l'élément HTML permettra 
 aux lecteurs d'écrans de déterminer la langue à utiliser pour l'énonciation. La balise de langage utilisée doit correspondre à celle utilisée
 pour la majortité du contenu de la page. Source = https://developer.mozilla.org/fr/docs/Web/HTML/Element/html-->
@@ -68,7 +70,7 @@ Contenu Footer - bloc-8
 //OK-->
 
 	<!--Modification de la font-size des différents paragraphes de la page index.html / Problème de visibilité pour les personne malvoyante
-Création de la class text-visibility__access pour changer la taille des différents éléments //OK-->
+	Création de la class text-visibility__access pour changer la taille des différents éléments //OK-->
 
 	<!--Supression des annuaires du footer / trop de liens externe qui n'ont pas d'impact pour le SEO n'est pas une bonne pratique de ce faite j'ai décidé de garder que les liens vers nos partenaires //OK-->
 
@@ -77,6 +79,7 @@ Création de la class text-visibility__access pour changer la taille des différ
 	<!--Modification du contraste des différent éléments du a un problème d'accéssibilité //OK-->
 
 	<!-- Analytics END -->
+	<!--index.html-->
 	<!---Ajouter des alt cohérent pour les différente img du site //OK-->
 	<!---Optimiser les différentes images du site pour gagner en performance; //OK-->
 	<!---Modification de la balise title dans le header (ajouter du contenu); //OK-->
@@ -91,6 +94,25 @@ Création de la class text-visibility__access pour changer la taille des différ
 par les différents algo de Google : //OK-->
 	<!--Modification de la balise meta "keywords" / supression des mot clés non pertinent / ajout de mot clés pertinent //OK-->
 	<!--Modification de la balise meta "description" / ajout d'une phrase pertinente qui accroche le visiteur en utilisant des mot clef pertinent //OK-->
+	<!--Script lazysizes Optimisation de performance : ce script permet de charger les différente images du site en différer. Les images non visible par l'utilisateur
+	ne sont donc pas chargé par le navigateur elle se charge uniquement une fois que l'utilisateur scrall sur le contenu, cela permet de gagner en vitesse de chargement du site
+	web / utilisation : ajout de l'élément data-src ainsi que de la classe lazyload au différente image //OK-->
+	<!--index.html /responsive-->
+	<!--Mofification : ajout d'un margin auto pour centrer les images //OK-->
+	<!--Modification du nom des diférente img du site qui doit correspondre a l'image présenté SEO //OK-->
+
+
+	<!--contact.html-->
+	<!--Changment du title de la page / Contact-->
+	<!--Problème de positionnement de la navbar version desktop / tablette / repositionnement de la navbar-->
+	<!--Problème de toggle navigation sur la version mobile / refonte de la toggle navigation version mobile-->
+	<!--Problème d'affichage du texte dans le container block-lg le texte passe en arrière plan par apport au background-->
+	<!--Refonte du formulaire // changement des messages d'erreurs qui étais en anglais changement en français Fichier : jqBootstrapValidation.js //OK-->
+	<!--Centrer les différents éléments-->
+	<!--Modification des différents liens scripts en min / blockage des différents script du a se problème //OK-->
+	<!--A faire-->
+	<!--Modifier la meta description de la page contact-->
+	<!--Assurez-vous que vos pages sont adaptées aux mobiles afin que les utilisateurs n'aient pas à pincer ou à zoomer pour lire les pages de contenu-->
 
 
 </head>
@@ -106,8 +128,9 @@ par les différents algo de Google : //OK-->
 				<nav class="navbar row">
 					<div class="navbar-header">
 
-						<a class="navbar-brand" href="index.html"><img class="lazyload" data-src="img/la-chouette-agence.png"
-								alt="Logo de l'entreprise La Chouette agence" height="40" /></a>
+						<a class="navbar-brand" href="index.html"><img class="lazyload"
+								data-src="img/la-chouette-agence.png" alt="Logo de l'entreprise La Chouette agence"
+								height="40" /></a>
 						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle"
 							data-toggle="collapse" data-target=".navbar-1">
 							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
@@ -246,9 +269,9 @@ par les différents algo de Google : //OK-->
 				</div>
 				<div class="row tight-width-whitespace portfolio-row">
 					<div class="col-sm-6">
-						<a href="#" data-lightbox="img/1.webp" data-gallery-id="gallery-1"
+						<a href="#" data-lightbox="img/journal.webp" data-gallery-id="gallery-1"
 							data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img
-								data-src="img/1.webp" alt="Refonte d'un site web pour un journal local"
+								data-src="img/journal.webp" alt="Entreprise lyonnaise de web design, Refonte d'un site web pour un journal local"
 								class="img-responsive portfolio-thumb lazyload" /></a>
 						<h3 class="mg-md text-center">
 							Refonte d'un site web pour un journal local
@@ -258,10 +281,10 @@ par les différents algo de Google : //OK-->
 						</p>
 					</div>
 					<div class="col-sm-6">
-						<a href="#" data-lightbox="img/2.webp" data-gallery-id="gallery-1"
+						<a href="#" data-lightbox="img/photographes.webp" data-gallery-id="gallery-1"
 							data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img
-								data-src="img/2.webp" class="img-responsive portfolio-thumb lazyload"
-								alt="Création d'un site web pour photographes" /></a>
+								data-src="img/photographes.webp" class="img-responsive portfolio-thumb lazyload"
+								alt="Entreprise lyonnaise de web design, Création d'un site web pour photographes" /></a>
 						<h3 class="mg-md text-center">
 							Création d'un site web pour photographes
 						</h3>
@@ -272,10 +295,10 @@ par les différents algo de Google : //OK-->
 				</div>
 				<div class="row tight-width-whitespace portfolio-row">
 					<div class="col-sm-6">
-						<a href="#" data-lightbox="img/3.webp" data-gallery-id="gallery-1"
+						<a href="#" data-lightbox="img/voyageur.webp" data-gallery-id="gallery-1"
 							data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img
-								data-src="img/3.webp" class="img-responsive portfolio-thumb lazyload"
-								alt="Création d'un site web pour voyageur" /></a>
+								data-src="img/voyageur.webp" class="img-responsive portfolio-thumb lazyload"
+								alt="Entreprise lyonnaise de web design, Création d'un site web pour voyageur" /></a>
 						<h3 class="mg-md text-center">
 							Création d'un site internet pour un voyageur
 						</h3>
@@ -285,10 +308,10 @@ par les différents algo de Google : //OK-->
 						</p>
 					</div>
 					<div class="col-sm-6">
-						<a href="#" data-lightbox="img/4.webp" data-gallery-id="gallery-1"
+						<a href="#" data-lightbox="img/mariage.webp" data-gallery-id="gallery-1"
 							data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img
-								data-src="img/4.webp" class="img-responsive portfolio-thumb lazyload"
-								alt="Création d'un site web pour agence de mariage" /></a>
+								data-src="img/mariage.webp" class="img-responsive portfolio-thumb lazyload"
+								alt="Entreprise lyonnaise de web design, Création d'un site web pour agence de mariage" /></a>
 						<h3 class="mg-md text-center">
 							Conception d'un site pour une agence de mariage
 						</h3>
@@ -378,6 +401,9 @@ par les différents algo de Google : //OK-->
 	<script src="./js/gmaps.js"></script>
 	<script src="https://kit.fontawesome.com/99952062c2.js" crossorigin="anonymous"></script>
 	<script src="https://unpkg.com/lazysizes@5.2.2/lazysizes.js"></script>
+	<!--Script lazysizes Optimisation de performance : ce script permet de charger les différente images du site en différer. Les images non visible par l'utilisateur
+	ne sont donc pas chargé par le navigateur elle se charge uniquement une fois que l'utilisateur scrall sur le contenu, cela permet de gagner en vitesse de chargement du site
+	web / utilisation : ajout de l'élément data-src ainsi que de la classe lazyload au différente image-->
 </body>
 
 </html>
