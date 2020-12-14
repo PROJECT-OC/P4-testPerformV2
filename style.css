@@ -843,14 +843,9 @@ h4 {
 
 /*Footer*/
 
-.content-list,
-.center-elt,
 .list-item {
     display: flex;
     justify-content: center;
-}
-
-.list-item {
     align-items: center;
     width: 100%;
 }
@@ -875,6 +870,13 @@ h4 {
 .cl-1 {
     color: black !important;
 }
+
+.margin-a {
+    display: flex;
+    justify-content: center;
+}
+
+
 
 @media (max-width: 1024px) {
     .bloc {
@@ -1077,6 +1079,11 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .list-item {
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
 
 @media (max-width: 400px) {
